@@ -1,0 +1,17 @@
+GET 127.0.0.1:8000/reset
+Accept: application/json
+
+###
+
+GET 127.0.0.1:8000/count
+Accept: application/json
+
+###
+
+GET 127.0.0.1:8000/count
+Accept: application/json
+
+###
+
+GET 127.0.0.1:8000/count
+Accept: application/json
