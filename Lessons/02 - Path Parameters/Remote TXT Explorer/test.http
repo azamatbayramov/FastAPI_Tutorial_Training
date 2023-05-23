@@ -1,0 +1,13 @@
+GET 127.0.0.1:8000/files/folder/hello.txt
+
+###
+
+GET 127.0.0.1:8000/files/holder/hello.txt
+
+###
+
+GET 127.0.0.1:8000/files/folder/bye.txt
+
+###
+
+GET 127.0.0.1:8000/files/document.word
