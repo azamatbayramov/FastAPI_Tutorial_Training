@@ -1,0 +1,25 @@
+GET 127.0.0.1:8000/sequence
+
+###
+
+GET 127.0.0.1:8000/sequence?start=5
+
+###
+
+GET 127.0.0.1:8000/sequence?length=7
+
+###
+
+GET 127.0.0.1:8000/sequence?step=3
+
+###
+
+GET 127.0.0.1:8000/sequence?start=5&length=7
+
+###
+
+GET 127.0.0.1:8000/sequence?start=10&length=3&step=4
+
+###
+
+GET 127.0.0.1:8000/sequence?start=Hello
