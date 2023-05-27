@@ -1,0 +1,5 @@
+GET 127.0.0.1:8000/sort?lst=1&lst=0&lst=2
+
+###
+
+GET 127.0.0.1:8000/sort?lst=-1&lst=1&lst=0&reverse=on
