@@ -1,0 +1,51 @@
+GET http://127.0.0.1:8000/items/1
+
+###
+
+POST http://127.0.0.1:8000/items
+Content-Type: application/json
+
+{
+  "name": "Apple",
+  "price": 20
+}
+
+###
+
+GET http://127.0.0.1:8000/items/1
+
+###
+
+PATCH http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+  "desc": "description"
+}
+
+###
+
+GET http://127.0.0.1:8000/items/1
+
+###
+
+PUT http://127.0.0.1:8000/items/1
+Content-Type: application/json
+
+{
+  "name": "Bread",
+  "price": 30,
+  "desc": "Very warm"
+}
+
+###
+
+GET http://127.0.0.1:8000/items/1
+
+###
+
+DELETE http://127.0.0.1:8000/items/1
+
+###
+
+GET http://127.0.0.1:8000/items/1
